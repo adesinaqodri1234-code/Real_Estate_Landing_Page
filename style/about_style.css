@@ -187,28 +187,22 @@ body {
     max-width: 1200px;
 }
 
-.about-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 140px 0;
-    background: #111; 
-    color: #fff;
+section {
+    margin: 100px 0;
 }
 
- /* .about-hero {
+ .about-hero {
     color: #fff;
     background: #111;
     text-align: center;
     padding: 120px 0 20px;
- } */
+ }
 
- .about-hero h1 {
+ /* .about-hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
- }
+    text-align: center;
+ } */
 
  .about-hero p {
     font-size:  18px;
