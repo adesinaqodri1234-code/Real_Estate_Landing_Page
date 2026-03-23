@@ -161,7 +161,7 @@ body {
 }
 
 .header-features-section .feature-img {
-    position: absolute; /* position to the body */
+    position: absolute; 
     top: 0;
     left: 50%;
     z-index: -1;
@@ -182,7 +182,9 @@ body {
 }
 
 .property-hero {
-    background: #111;
+    background: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6');
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
     padding: 120px 0 100px;
@@ -245,4 +247,47 @@ body {
     font-weight: bold;
     color: #f4b400;
     margin-bottom: 15px;
+}
+
+.list-property {
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+              url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.list-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.list-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.list-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+.list-btn {
+  display: inline-block;
+  padding: 14px 35px;
+  background: #c5a47e;   
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.list-btn:hover {
+  background: #b8936b;
+  transform: translateY(-3px);
 }
