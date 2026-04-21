@@ -133,7 +133,6 @@ function showMessage(form, text, type) {
         msg.remove();
     }, 4000);
 }
-
 const inquiryButtons = document.querySelectorAll('.send-inquiry');
 
 inquiryButtons.forEach(function (button) {
